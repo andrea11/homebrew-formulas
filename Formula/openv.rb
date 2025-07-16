@@ -7,25 +7,25 @@ class Openv < Formula
   homepage "https://github.com/andrea11/openv"
   url "https://github.com/andrea11/openv/archive/refs/tags/v0.1.0.tar.gz"
   version "0.1.0"
-  sha256 "c96e5174c918c146fc945aa782a43f064790b6caf94a5531b2e25f9c738e6d22"
+  sha256 "91caecfbaf4c55cbc68b9b71fbae6b68da95b04f7988eb16721b2b69451c4e6a"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/andrea11/openv/releases/download/v0.1.0/openv-0.1.0-darwin-arm64.tar.gz"
-      sha256 "e164ee9487291bc839f227a98ecd145890a4f906d7d2fa45236432d1276de9ad"
+      sha256 "3da0b88f8a2a4cc0fe6398424e8dc8ed854d5cd7ccc4faa6298bcb968a23f00d"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/andrea11/openv/releases/download/v0.1.0/openv-0.1.0-linux-amd64.tar.gz"
-      sha256 "16ddb1d61de4e6f2b5914dd672435c7175d2a2349f2414786493f48f4f01e4fa"
+      sha256 "59d7e2919c2c18d203dee5b1fe06fab93fbdb6e8e83cad4cf30b98eefd5e4597"
     end
 
     on_arm do
       url "https://github.com/andrea11/openv/releases/download/v0.1.0/openv-0.1.0-linux-arm64.tar.gz"
-      sha256 "f4942203e7830b8301c19bebb56845de5ef7e160415fad00cefeee3ecd9daa2e"
+      sha256 "677ca738a85972af6ead3ac7a4c834d41807a269cf8f39049f4254a16f45df79"
     end
   end
 
