@@ -5,27 +5,27 @@
 class Openv < Formula
   desc "A tool to automatically load secrets from .env files using 1password cli u"
   homepage "https://github.com/andrea11/openv"
-  url "https://github.com/andrea11/openv/archive/refs/tags/v0.2.3.tar.gz"
-  version "0.2.3"
-  sha256 "0009705aff3e1741461e19567d66c9673b068b9ebf2ab27a81b83e55a8f379f9"
+  url "https://github.com/andrea11/openv/archive/refs/tags/v0.3.0.tar.gz"
+  version "0.3.0"
+  sha256 "19e0866e65c98379194a835d542ed3fb22bf3c92c9e30c5afb7252baa54bcde8"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/andrea11/openv/releases/download/v0.2.3/openv-0.2.3-darwin-arm64.tar.gz"
-      sha256 "e1e9f4130d8b083193f3a4455a81ce601b8b3726775b310a8595a1cdacf2f697"
+      url "https://github.com/andrea11/openv/releases/download/v0.3.0/openv-0.3.0-darwin-arm64.tar.gz"
+      sha256 "af23879f2591fcb913d7522915154328fb2c49d8e349239a9ec97ae2aaaa2d32"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/andrea11/openv/releases/download/v0.2.3/openv-0.2.3-linux-amd64.tar.gz"
-      sha256 "42713d62da15014272872f70e099dd736046186cb3943b1cccbfceb552b45358"
+      url "https://github.com/andrea11/openv/releases/download/v0.3.0/openv-0.3.0-linux-amd64.tar.gz"
+      sha256 "b9c89782ae277299bd9ae37963412cf21e5469d7be3d91e822d833836953bd1e"
     end
 
     on_arm do
-      url "https://github.com/andrea11/openv/releases/download/v0.2.3/openv-0.2.3-linux-arm64.tar.gz"
-      sha256 "149e89be3e5a5dd18211865f2aa92a992435afb79f5d7e5829ed78167d342540"
+      url "https://github.com/andrea11/openv/releases/download/v0.3.0/openv-0.3.0-linux-arm64.tar.gz"
+      sha256 "d3c5b1101d46ff41320c2ec3801ed200c56dc48cdeaa129e7c551e368e08d5a3"
     end
   end
 
